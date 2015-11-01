@@ -43,21 +43,23 @@ h3 {
 
 
 .main-header {
-  padding: 5px 0;
+
 }
 
-  .nav ul {
-  list-style: none;
-  background-color: white;
+.nav ul {
   text-align: center;
   padding: 0;
   margin: 0;
 }
-  .nav li {  
-  
-  height: 40px;
+
+.nav li {  
   display: inline-block;
-  margin-right: 1%;
+  width: 20%;
+}
+
+
+.nav .logo {
+  width: 8%;
 }
  
   .nav a {
@@ -77,21 +79,36 @@ h3 {
 .sedona-logo {
   background-color: #99cccc;
   color: black;
-  background-image: url('img/background.jpg');
+  background: url('../img/background.jpg') no-repeat 50% 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-top: 80px;
 }
 
+.sedona-logo:after {
+  content: '';
+  width: 100%;
+  height: 57px;
+  display: block;
+  background: url(../img/shape-bg.png) no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
 
-.container
+  margin-top: 40px;
+  
+}
 
-.main-heade
-
-.row-text 
-
-.main-text 
+.container {
+  max-width: 1200px;
+  min-width: 768px;
+  margin: 0 auto;
+}
 
 .img-holder {
-
-  }
+  height: 256px;
+  overflow: hidden;
+  position: relative;
+}
 
 .row-facts{
     
@@ -178,6 +195,6 @@ form {
 
 .main-footer {
   padding: 20px 0;
-  margin-left:200px;
+  /*margin-left:200px;*/
 }
 
