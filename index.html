@@ -6,12 +6,12 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
- <body>
-  <div class="container">
-    <header class="main-header">
-      <nav class="main-navigation">
+  <body>
+   <div class="container">
+     <header class="main-header">
+      <div class="nav">
         <ul>
-          <li  class="active">
+          <li>
             <a href="index.html">Информация</a>
           </li>
           <li>
@@ -19,7 +19,7 @@
           </li>
           <li class="logo">
             <a href="index.html">
-              <img src="img/logo.jpg" width="70" height="50" alt="Sedona">
+              <img src="img/logo.jpg" alt="Sedona">
             </a>
           <li>
             <a href="#">Карта Штата</a>
@@ -28,76 +28,97 @@
             <a href="hotels.html">Гостиницы</a>
           </li>
         </ul>
-      </nav>
-    </header>
+      </div>
+      </header>
+    </div>
+
 
     <main>
-        <div class="row-text">
-          <h1>Седона-небольшой городок в Аризоне, заслуживающий большего!</h1>
-          <p class="">Рассморим 5 причин,по которым Седона круче,чем Гранд Каньон!</p>
+
+
+      <div class="sedona-logo">
+        <img src="img/sedona.png" alt="Awesome Sedona">
+      </div>
+
+        <div class="row-text ">
+          <h2><p>Седона-небольшой городок в Аризоне,</p> заслуживающий большего!</h2>
+          <p class="main-text">Рассморим 5 причин,по которым Седона круче,чем Гранд Каньон!</p>
         </div>
         <div class="row-bigpicture clearfix">
-          <div class="describe col8">
-            <p>— №1 —</p>
+          <div class="describe col4">
             <h3>Настоящий городок</h3>
-            <p>Седона - не аттракцион для туристов,там течет своя жизнь</p>
+            <p>— №1 —</p>
+            <p>Седона - не аттракцион для туристов,</p>
+            там течет своя жизнь
           </div>
-          <div class="img-holder col4">
-            <img src="img/fact1.png" alt="Devil`s bridge">
+          <div class="img-holder col8 ">
+            <img src="img/fact1.jpg" alt="Devil`s bridge">
           </div>
-        </div>
-        <div class="row-facts">
-          <div class="fact col4">
-            <img src="img/home.png" width="50" height="50" alt="Home"> 
-            <h3>Жилье</h3>
-            Рекомендуем пожить в настоящем мотеле, все как в кино!
-          </div>
-          <div class="fact col4">
-            <img src="img/food.png" width="50" height="50" alt="Food"> 
-            <h3>Еда</h3>
-            Всегда заказывайте фирменный бургер, вы не разочаруетесь!
-          </div>
-          <div class="fact col4">
-            <img src="img/g ift.png" width="50" height="50" alt="Gifts"> 
-            <h3>Сувениры</h3>
-            <span class="describe"> Не только китайского, но и местного производства!</span>
-          </div>
-        </div>
-
-
-        <div class="row-bigpicture">
-
-
-        </div>
-              <div class="describe">
-                <h3>Там есть мост дьявола</h3>
-                <p>— №2 —</p>
-                <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-                 <img src="img/fact2.png">
-              </div>
-              <div class="fact">
-                <h3>Небольшая площадь</h3>
-                <p>— №3 —</p>
-                <p>Все достопримесательности находятся очень близко</p>
-              </div>
-              <div class="fact">
-                <h3>Красивая дорога</h3>
-                <p>— №4 —</p>
-                <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-              </div>
-              <div class="fact">
-                <h3>Мало туристов</h3>
-                <p>— №5 —</p>
-                <p>Большинство едет в Гранд каньон и толпится там</p>
-              </section>
-        </div>
-        <div class="booking">
-          <h2>Заинтересовались?</h2>
-          <h3>Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</h3>
-          <a href="#0">Поиск гостиницы в Седоне</h2>
         </div>
         
+
+        <div class="row-facts clearfix">
+          <div class="fact col4">
+            <img src="img/home.png" alt="Home"> 
+            <h3>Жилье</h3>
+            <p>Рекомендуем пожить в настоящем мотеле,</p> все как в кино!
+          </div>
+          <div class="fact col4">
+            <img src="img/food.png" alt="Food"> 
+            <h3>Еда</h3>
+            <p>Всегда заказывайте фирменный бургер,</p> вы не разочаруетесь!
+          </div>
+          <div class="fact col4">
+            <img src="img/gift.png"  alt="Gifts"> 
+            <h3>Сувениры</h3>
+            <p>Не только китайского,</p> но и местного производства!
+          </div>
+        </div>
+
+
+        <div class="row-bigpicture clearfix">
+              <div class="img-holder col8">
+                 <img src="img/fact2.jpg">
+              </div>
+              <div class="describe col4">
+                <h3>Там есть мост дьявола</h3>
+                <p>— №2 —</p>
+                <p>Да, по нему можно пройти!</p>
+                <p>Если конечно вы осмелитесь</p>
+              </div>
+        </div>
+
+
+        <div class="row-facts-2 clearfix"> 
+              <div class="fact col4">
+                <h3>Небольшая площадь</h3>
+                <p>— №3 —</p>
+                <p>Все достопримеча-</p>тельности находятся очень близко
+              </div>
+              <div class="fact col4">
+                <h3>Красивая дорога</h3>
+                <p>— №4 —</p>
+                <p>Ехать в Седону из Лас-Вегаса совсем</p> не скучно!
+              </div>
+              <div class="fact col4">
+                <h3>Мало туристов</h3>
+                <p>— №5 —</p>
+                <p>Большинство едет в Гранд каньон и</p> толпится там
+              </div>
+        </div>
+   
+        <div class="booking">
+          <div class="booking-title clearfix">
+          <h2>Заинтересовались?</h2>
+          <p>Укажите предполагаемые даты поездки?</p> и мы покажем вам лучшие предложения гостиниц в седоне
+          </div>
+          
+            
+        
         <form class="search" action="echo" method="post">
+          <div class="searching-title">
+          Поиск гостиницы в Седоне
+          </div> 
           <div class="in">
             <label for="date-in">Дата заезда:</label>
             <input id="date-in" type="text" placeholder="24 апреля 2014" />
@@ -115,6 +136,8 @@
               </div>
             </label>
           </div>
+
+
           <div class="book-title-2">
               <label>Дети:
               <div class="form-btn">
@@ -126,8 +149,9 @@
           </div>
           <input class="btn-search" type="submit" value="Найти">
         </form>
-     
-    </main>
+     </main>
+
+
     <footer class="main-footer">
       <section class="footer-hashtag col4">
           <p>#VISITSEDONA</p>
@@ -138,8 +162,7 @@
           <a href="#" class="social-btn social-u2b">You Tube</a>
         </section>
         <section class="footer-copyright col4">
-          
-          <a href="htmlacademy.ru"><img src="img/html_logo.png" alt="HTMLacademy"></a>
+          <a href="https://htmlacademy.ru/"><img src="img/academy.jpg" alt="HTMLacademy"></a>
         </section>
       </div>
     </footer>

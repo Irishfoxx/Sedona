@@ -2,114 +2,34 @@ body {
   font-family: "PTSans Regular", sans-serif;
   font-size: 14px;
   font-weight: regular;
-  color: #000000;
   text-transform: uppercase;
   line-height: 14px;
-}
-
-h1 {
-  font-family: "PTSans Bold", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  color: #000000;
-  text-transform: uppercase;
-  line-height: normal;
-  text-align:center;
-}
+  text-align: center;
+  }
 
 h2 {
   font-family: "PTSans Bold", sans-serif;
   font-size: 21px;
   font-weight: bold;
-  color: #000000;
   text-transform: uppercase;
   line-height: normal;
   text-align:center;
 }
+
+h3 {
+  font-family: "PTSans Bold", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: normal;
+  text-align:center;
+}
+
 .clearfix:after {
-  content: '';
+ content: '';
   display: table;
   clear: both;
 }
-
-.main-header {
-  padding: 5px 0;
-}
-.container, .main-header{
-  min-height: 20px;
-  padding: 5px;
-  align:center;
-  width: 1000px;
-  margin: 0 auto;
-  
-}
-
-.search {
-  min-height: 20px;
-  padding: 5px;
-  align:center;
-  width: 1000px;
-  margin-left: 300px;
-}
-
-.main-navigation {
-  min-height: 50px;
-  width: 520px;
-  min-height: 20px;
-}
-
-.main-container {
-  margin: 30px auto;
-}
-
-.logo {
-  margin: 0;
-  min-height: 120px;
-  width: 270px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-}
-
-
-.fact {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  width: 200px;
-  min-height: 50px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  padding: 5px;
-  padding-left: 55px;
-  border-radius: 4px;
-  box-shadow: 0 0 3px rgba(0, 0, 0, .2);
-}
-
-.main-footer {
-  padding: 20px 0;
-  margin-left:200px;
-  
-}
-.footer-hashtag {
-  min-height: 80px;
-  width: 220px;
-  float: left;
-  margin-right: 35px;
-}
-
-.footer-social {
-  min-height: 80px;
-  width: 140px;
-  float: left;
-  margin-right: 35px;
-}
-
-.footer-copyright {
-  min-height: 80px;
-  width: 220px;
-  float: left;
-}
-
 
 .col4 {
   width: 33.33333333%;
@@ -117,6 +37,147 @@ h2 {
 }
 
 .col8 {
-  width: 66.66666666%;
+ width: 66.66666666%;
   float: left;
 }
+
+
+.main-header {
+  padding: 5px 0;
+}
+
+  .nav ul {
+  list-style: none;
+  background-color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+  .nav li {  
+  
+  height: 40px;
+  display: inline-block;
+  margin-right: 1%;
+}
+ 
+  .nav a {
+  text-decoration: none;
+  color: black;
+  display: block;
+
+}
+ 
+
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+.sedona-logo {
+  background-color: #99cccc;
+  color: black;
+  background-image: url('img/background.jpg');
+}
+
+
+.container
+
+.main-heade
+
+.row-text 
+
+.main-text 
+
+.img-holder {
+
+  }
+
+.row-facts{
+    
+  width: 100%;
+}
+
+.fact {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.describe{
+  color: white;
+  background-color: #99cccc;
+  padding-top: 4.5%;
+  padding-bottom: 4.5%;
+}
+
+.row-facts-2 {
+  background-color: #eeeeee;
+}
+
+.booking {
+  background-color: white;
+  box-shadow: inset;
+}
+
+.booking-title {
+ display: inline-block;
+ background-color: white;
+  width: 60%;
+  box-shadow: inset;
+}
+
+.searching-title {
+  display: inline-block;
+  width: 45%;
+  font-size: 18px;
+  color: white;
+  background-color: #766357;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  box-shadow: inset;
+  border: solid 1px;
+}
+
+.result-row {
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+
+form {
+  box-shadow: inset;
+  border: solid 1px;
+  width: 35%;
+  padding: 3%;
+}
+
+.search {
+  min-height: 20px;
+  padding: 5px;
+  margin-left: 300px;
+}
+
+.btn-more{
+  padding: 1%;
+  color: white;
+  background-color: #99cccc;
+}
+
+.btn-more:hover {
+ background-color: #669ec0;
+}
+
+.btn-booking {
+  padding: 1%;
+  color: white;
+  background-color: #766357;
+}
+
+.btn-booking:hover{
+  background-color: #604e43;
+}
+
+.main-footer {
+  padding: 20px 0;
+  margin-left:200px;
+}
+
