@@ -293,6 +293,27 @@ a img {
   cursor: pointer;
 }
 
+.hidden-form {
+  display: none;
+}
+
+@keyframes show-form {
+  0% {
+    transform: translateY(-100px)
+  }
+  50% {
+    transform: translateY(50px)
+  }
+  100% {
+    transform: translateY(0)
+  }
+}
+
+.shown-form {
+  display: block;
+  animation-name: show-form;
+  animation-duration: 0.6s;
+}
 
 
 
