@@ -7,6 +7,6 @@ legend.addEventListener("click", function(event) {
 	form.classList.add("shown-form");
 });
 
-window.addEventListener("load", function() {
-	form.classList.add("hidden-form");
-});
+// window.addEventListener("load", function() {
+// 	form.classList.add("hidden-form");
+// });
