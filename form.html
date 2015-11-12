@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sedona</title>
+  
+  <link href="css/style.css" rel="stylesheet">
+  <link href="symbols-sedona/css/symbols-sedona.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css" >
+</head>
+
+<body>
+<div class="booking-form-container">
+        <form class="booking-form" action="#" method="post">
+          
+          <div class="booking-form-dates clearfix">
+            <label for="booking-form-date-in">дата заезда:</label>
+            <input type="date" name="booking-form-date-in" id="booking-form-date-in" value="2014-04-24">
+          </div>
+          <div class="booking-form-dates clearfix">
+            <label for="booking-form-date-out">дата выезда:</label>
+            <input type="date" name="booking-form-date-out" id="booking-form-date-out" value="2014-04-07">
+          </div>
+          <div class="booking-form-counters adults clearfix">
+            <label for="number-adult">взрослые:</label>
+            <button class="booking-form-minus minus-adult"><i class="icon-minus"></i></button>
+            <input type="number" class="booking-form-counter-input number-adult" name="number-adult" id="number-adult" value="2" min="1" max="9">
+            <button class="booking-form-plus plus-adult"><i class="icon-plus"></i></button>
+          </div>
+          <div class="booking-form-counters kids clearfix">
+            <label for="number-kids">дети:</label>
+            <button class="booking-form-minus minus-kids"><i class="icon-minus"></i></button>
+            <input type="number" class="booking-form-counter-input number-kids" name="number-kids" id="number-kids" value="0" min="0" max="9">
+            <button class="booking-form-plus plus-kids"><i class="icon-plus"></i></button>
+          </div>
+          <div>
+            <button type="submit" class="booking-form-submit btn-blue">найти</button>
+          </div>
+        </form>
+
+      </div>
+     </body>
+     </html>
