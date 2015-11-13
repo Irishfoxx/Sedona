@@ -155,18 +155,19 @@ img {
 
 
 .advantage {
-  height: 256px;
+  min-height: 256px;
+  background-color: #81b3d2;
   font-size: 0;
 }
 
 .advantage-blue {
   display: inline-block;
+  vertical-align: top;
   width: 33%;
   padding: 50px;
+  padding-bottom: 0;
   box-sizing: border-box;
   text-align: center;
-  vertical-align: top;
-  background-color: #81b3d2;
   color: white;
   height: 100%;
   font-size: 14px;
@@ -229,27 +230,25 @@ img {
  
 .advantage-img  {
   position: relative;
+  height: 256px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;  
+  width: 67%;
 }
 
 .advantage-img img {
   
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-.advantage-img-2 img{
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   margin: auto;
+
+  width: 100%;
+  height: auto;
 }
-
-
 
 .additional-advantage {
   display: inline-block;
@@ -334,13 +333,6 @@ img {
   }
 }
 
-.shown-form {
-  display: block;
-  animation-name: show-form;
-  animation-duration: 0.6s;
-}
-
-
 
 .booking-form {
   font-size: 14px;
@@ -358,7 +350,14 @@ img {
   background-color: white;
   padding: 55px;
   box-sizing: border-box;
-  box-shadow: 0 7px 15px 0 rgba(0,0,0,0.15)
+  box-shadow: 0 7px 15px 0 rgba(0,0,0,0.15);
+  display: none;
+}
+
+.shown-form {
+  display: block;
+  animation-name: show-form;
+  animation-duration: 0.6s;
 }
 
 .booking-form input {
