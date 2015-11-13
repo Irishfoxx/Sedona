@@ -228,17 +228,11 @@ img {
 
  
 .advantage-img  {
-  margin: 20px auto;
-  border: 1px solid #000;
-  width: 80%;
-  
-  height: 200px;
-  overflow: hidden;
   position: relative;
 }
 
 .advantage-img img {
-  position: absolute;
+  
   left: 0;
   right: 0;
   top: 0;
